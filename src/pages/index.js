@@ -1,6 +1,11 @@
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
+import React from "react";
+
+import Homepage from "@/components/Homepage/Homepage";
 
 export default function Home() {
-  return <div>Main</div>;
+  return (
+    <React.Fragment>
+      <Homepage />
+    </React.Fragment>
+  );
 }
