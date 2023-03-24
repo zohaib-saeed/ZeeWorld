@@ -20,7 +20,7 @@ const Navbar = ({ logoSize }) => {
         {/* Logo  */}
         <Link href="/">
           <div
-            className={`${logoSize} relative flex items-center justify-center `}
+            className={`${logoSize} relative flex items-center justify-center -ml-[10px]`}
           >
             <Image
               src={`/images/logo.svg`}
@@ -49,7 +49,7 @@ const Navbar = ({ logoSize }) => {
           </button>
         </Link>
         {/* Menu Button  */}
-        <Bars3Icon className="w-[36px] h-[36px] font-bold text-white cursor-pointer inline-block lg:hidden" />
+        <Bars3Icon className="w-[30px] sm:w-[36px] h-[30px] sm:h-[36px] font-bold text-white cursor-pointer inline-block lg:hidden" />
       </div>
     </Container>
   );
