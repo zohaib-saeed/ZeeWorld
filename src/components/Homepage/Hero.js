@@ -8,7 +8,7 @@ const Hero = () => {
       <Navbar logoSize="w-[200px] sm:w-[230px] sxl:w-[275px] h-[75px] sm:h-[95px] sxl:h-[110px]" />
       {/* Hero section content */}
       <div className="w-full max-w-[1280px] flex items-center justify-start my-auto px-2 sm:px-3 md:px-4 ">
-        <div className="w-full max-w-[500px] flex flex-col items-start justify-start gap-[6px] ml-12 md:ml-16">
+        <div className="w-full max-w-[500px] flex flex-col items-start justify-start gap-[6px] md:ml-16">
           <h1 className="w-[80%] sm:w-full text-3xl sm:text-4xl font-bold text-left text-white">
             Ontdek de mogelijkheden van{" "}
             <span className="text-azure "> Zeewolde</span>

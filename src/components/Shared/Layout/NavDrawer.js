@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useId } from "react";
 import Link from "next/link";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
@@ -13,13 +13,13 @@ const NavDrawer = ({ isOpen, toggleDrawer }) => {
   ];
   return (
     <Drawer
+      instanceId={useId()}
       open={isOpen}
       onClose={toggleDrawer}
       direction="left"
-      duration={500}
-      className="!w-[98%] md:!w-[50%]"
+      className="!w-[100%] md:!w-[50%] "
     >
-      <div className="w-full h-screen overflow-y-scroll flex flex-col items-center justify-start gap-24 p-5  md:p-8">
+      <div className="w-full flex flex-col items-center justify-start gap-24 p-5  md:p-8">
         {/* Close Button  */}
         <div className="w-full flex items-center justify-end ">
           <XMarkIcon

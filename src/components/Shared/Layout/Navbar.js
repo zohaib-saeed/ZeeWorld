@@ -62,13 +62,12 @@ const Navbar = ({ logoSize }) => {
           />
         </div>
       </Container>
-      {openDrawer && (
-        <NavDrawer
-          isOpen={openDrawer}
-          setIsOpen={setOpenDrawer}
-          toggleDrawer={toggleDrawer}
-        />
-      )}
+
+      <NavDrawer
+        isOpen={openDrawer}
+        setIsOpen={setOpenDrawer}
+        toggleDrawer={toggleDrawer}
+      />
     </React.Fragment>
   );
 };
