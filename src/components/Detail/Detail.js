@@ -9,7 +9,7 @@ import Footer from "../Shared/Layout/Footer";
 
 <Events />;
 
-const CategoryDetail = () => {
+const Detail = () => {
   return (
     <div className="w-full  flex flex-col items-center justify-start">
       <Hero />
@@ -22,4 +22,4 @@ const CategoryDetail = () => {
   );
 };
 
-export default CategoryDetail;
+export default Detail;

@@ -17,7 +17,7 @@ const NavDrawer = ({ isOpen, toggleDrawer }) => {
       open={isOpen}
       onClose={toggleDrawer}
       direction="left"
-      className="!w-[100%] md:!w-[50%] "
+      className="!w-[100%] md:!w-[50%]"
     >
       <div className="w-full flex flex-col items-center justify-start gap-24 p-5  md:p-8">
         {/* Close Button  */}
@@ -31,7 +31,7 @@ const NavDrawer = ({ isOpen, toggleDrawer }) => {
         <div className="w-full flex flex-col items-center justify-start gap-20">
           <div className="flex flex-col items-center justify-start gap-5 ">
             {navItems.map((item, index) => (
-              <Link key={index} href={item.url}>
+              <Link key={index} href={item.url} onClick={toggleDrawer}>
                 <div className="font-bold text-black-ebony text-base cursor-pointer relative nav-item ">
                   {item.title}
                 </div>
@@ -41,6 +41,7 @@ const NavDrawer = ({ isOpen, toggleDrawer }) => {
           {/* Button => Download app  */}
           <Link href={`/`}>
             <button
+              onClick={toggleDrawer}
               className={`transition-all flex items-center justify-center rounded-full px-8 py-3 text-sm font-semibold  text-white cursor-pointer bg-azure hover:text-white`}
             >
               Download App

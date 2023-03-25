@@ -1,10 +1,10 @@
 import React from "react";
-import CategoryDetail from "@/components/CategoryDetail/CategoryDetail";
+import Detail from "@/components/Detail/Detail";
 
 const CategoryDetailPage = () => {
   return (
     <React.Fragment>
-      <CategoryDetail />
+      <Detail />
     </React.Fragment>
   );
 };
