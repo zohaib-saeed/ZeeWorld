@@ -14,6 +14,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* Animating nav items on hover  */
 .nav-item::before {
   content: "";
   position: absolute;
@@ -30,6 +31,7 @@ body {
   width: 100%;
 }
 
+/* Home => Experience.js section bg */
 .expreince-section-bg {
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -39,6 +41,7 @@ body {
   );
 }
 
+/* Category-overview => Section bg */
 .category-overview-sec-bg {
   background: rgb(255, 255, 255);
   background: linear-gradient(
