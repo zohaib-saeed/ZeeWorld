@@ -22,3 +22,15 @@ body {
     rgba(18, 21, 33, 1) 70%
   );
 }
+
+.category-overview-sec-bg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 47%,
+    rgba(255, 255, 255, 1) 48%,
+    rgba(0, 0, 0, 1) 48%,
+    rgba(4, 4, 4, 1) 75%,
+    rgba(255, 255, 255, 1) 75%
+  );
+}

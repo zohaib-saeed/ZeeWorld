@@ -20,7 +20,7 @@ const Navbar = ({ logoSize }) => {
         {/* Logo  */}
         <Link href="/">
           <div
-            className={`${logoSize} relative flex items-center justify-center -ml-[10px]`}
+            className={`${logoSize} relative flex items-center justify-center -ml-[6px]`}
           >
             <Image
               src={`/images/logo.svg`}
