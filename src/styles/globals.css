@@ -14,6 +14,22 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.nav-item::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0px;
+  height: 1.7px;
+  background-color: white;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+
+.nav-item:hover::before {
+  width: 100%;
+}
+
 .expreince-section-bg {
   background: rgb(255, 255, 255);
   background: linear-gradient(
