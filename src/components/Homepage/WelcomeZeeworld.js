@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 import Container from "../Shared/Container/Container";
-import Button from "../Shared/Button/Button";
 
 const WelcomeZeeworld = () => {
   return (

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 
 import Container from "../Container/Container";
-import Button from "../Button/Button";
 import NavDrawer from "./NavDrawer";
 
 const Navbar = ({ logoSize }) => {
